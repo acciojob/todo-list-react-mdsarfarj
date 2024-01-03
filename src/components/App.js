@@ -68,10 +68,10 @@ const App = () => {
             ) : (
               <>
                 {task}
-                <button className="edit" onClick={() => handleEdit(index)}>
+                <button className=".edit" onClick={() => handleEdit(index)}>
                   Edit
                 </button>
-                <button className="delete" onClick={() => handleDelete(index)}>
+                <button className=".delete" onClick={() => handleDelete(index)}>
                   Delete
                 </button>
               </>
